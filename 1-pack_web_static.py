@@ -7,6 +7,7 @@ from datetime import datetime
 from fabric.api import *
 import os
 
+
 def do_pack():
     """Fabscript that generates a .tgz archive of contents of e web_static"""
     dt = datetime.now()
